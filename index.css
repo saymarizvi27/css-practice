@@ -6,7 +6,7 @@ body{
     background: #e487a6;  
 }
 
-h1{
+#product-overview h1{
     color: ivory;
     font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -20,4 +20,5 @@ h1{
 /*Class override the h1 selector*/
 .section-title{
    color: #2ddf5c;
+   font-size: inherit;
 }
