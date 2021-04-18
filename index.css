@@ -1,14 +1,23 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+
 #product-overview{
     background: #e487a6;  
-    text-align: center;
 }
 
 h1{
     color: ivory;
     font-family: 'PT Sans Narrow', sans-serif;
-
 }
 
+/*But this will override*/
+h1{
+    color:purple;
+}
+
+
+/*Class override the h1 selector*/
 .section-title{
    color: #2ddf5c;
 }
