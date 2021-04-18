@@ -1,3 +1,14 @@
-section{
-    background: #ff1b68;
+#product-overview{
+    background: #e487a6;  
+    text-align: center;
+}
+
+h1{
+    color: ivory;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.section-title{
+   color: #2ddf5c;
 }
