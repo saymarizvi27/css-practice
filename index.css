@@ -8,7 +8,7 @@ body {
 
 /*Box model*/
 #product-overview {
-  background: #e487a6;
+  background: url("./freedom.jpg");
   padding: 10px;
   height: 500px;
 
@@ -38,21 +38,60 @@ h1 {
   padding: 8px 16px;
 }
 
-.main-nav__item {
-  display: inline-block;
-  padding: 0;
+.main-nav__items {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  color: purple;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background-color: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  background-color: white;
+  border: none;
+}
+
+/* 
+.main-nav__item a::after{
+   content: "(Link)";
+   color: crimson;
+} */
 
 .main-nav {
   text-align: right;
   display: inline-block;
   width: calc(100% - 100px);
+  vertical-align: middle;
 }
 
 .main-header > div {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .main-header__brand {
@@ -61,3 +100,8 @@ h1 {
   color: purple;
   font-size: 22px;
 }
+
+/* p::first-letter{
+  color: red;
+  font-size: 40px;
+} */
