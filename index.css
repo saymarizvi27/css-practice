@@ -102,40 +102,78 @@ body {
   font-size: 22px;
 }
 
-.plan{
+.plan {
   display: inline-block;
   background-color: #d5ffdc;
-  padding:16px;
+  padding: 16px;
   margin: 8px;
-  width:30%;
+  width: 30%;
   vertical-align: middle;
-  text-align:center;
+  text-align: center;
 }
 
-.plan--highlighted{
-    background: #19b84c;
-    color:white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+.plan--highlighted {
+  background: #19b84c;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.plan__annotation{
-    background: white;
-    color:  #19b84c;
-    padding: 8px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
+.plan__annotation {
+  background: white;
+  color: #19b84c;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
-.plan__features{
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: #444242;
+}
+
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+
+.plan__features {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.plan__features li{
+.plan__features li {
   margin: 8px 0;
 }
 
+.button{
+  background: #0e4f1f ;
+  color:white;
+  font: inherit;
+  /*The inherit keyword specifies that a property should inherit its value from its parent element.*/
+  border: 1.5px solid #0e4f1f;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.button:hover,
+.button:active{
+    background: white;
+    color: #0e4f1f ;
+}
+
+.button:focus{
+  outline:none;
+}
 /* p::first-letter{
   color: red;
   font-size: 40px;
