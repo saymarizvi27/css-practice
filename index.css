@@ -22,14 +22,15 @@ body {
 }
 
 /*But this will override*/
-h1 {
+/* h1 {
   color: purple;
-}
+} */
 
 /*Class override the h1 selector*/
 .section-title {
   color: #2ddf5c;
-  font-size: inherit;
+  font-size: 22px;
+  text-align: center;
 }
 
 .main-header {
@@ -99,6 +100,40 @@ h1 {
   font-weight: bold;
   color: purple;
   font-size: 22px;
+}
+
+.plan{
+  display: inline-block;
+  background-color: #d5ffdc;
+  padding:16px;
+  margin: 8px;
+  width:30%;
+  vertical-align: middle;
+  text-align:center;
+}
+
+.plan--highlighted{
+    background: #19b84c;
+    color:white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation{
+    background: white;
+    color:  #19b84c;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.plan__features{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan__features li{
+  margin: 8px 0;
 }
 
 /* p::first-letter{
