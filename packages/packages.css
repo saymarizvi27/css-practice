@@ -1,0 +1,43 @@
+.plan__cards{
+    display: inline-block;
+    width: 80%;
+    background-color: #d5ffdc;
+    border: 2px solid black;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.premium_card{
+    background-color: #0e4f1f;
+}
+
+.plan-card__links{
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.premium_card .plan-card__links{
+    color: white;
+}
+
+.banner-heading{
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(83, 42, 180);
+}
+
+.premium_card .banner-heading{
+    color: white;
+}
+
+.plan-description{
+    display: inline-block;
+    background-color: white;
+    padding: 16px;
+    border:1px solid black;
+}
+
+.premium_card .plan-description{
+    color: black;
+}
