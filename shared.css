@@ -128,3 +128,8 @@ body {
     font-size: 22px;
   }
   
+  .main-header__brand img{
+    height: 30px;
+    width: 30px;
+
+  }

@@ -9,9 +9,12 @@ body {
 /*Box model*/
 #product-overview {
   background: url("./freedom.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 0% 10%;
   padding: 10px;
   height: 500px;
-
+  position: relative;
   /* height cannot be set in % because its the given height 
     by the parent ie main area */
 }
